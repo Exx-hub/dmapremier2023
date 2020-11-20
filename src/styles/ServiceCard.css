@@ -1,0 +1,125 @@
+.serviceCard {
+	flex: 0.2;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.serviceCard__image {
+	border-radius: 10px;
+	width: 100%;
+	overflow: hidden;
+}
+.serviceCard__image > img {
+	object-fit: contain;
+	width: 100%;
+	transition: transform 700ms ease-in-out;
+}
+.serviceCard__image > img:hover {
+	transform: scale(1.07);
+}
+
+.serviceCard__text > h2 {
+	padding: 10px;
+	font-weight: 400;
+	color: #4c4c4c;
+	font-size: 1.8rem;
+}
+
+.serviceCard__text > ul {
+	list-style-type: none;
+	padding: 5px 20px;
+	color: #4c4c4c;
+}
+
+.serviceCard__text > ul li::before {
+	content: "\2022";
+	color: rgb(210, 84, 89);
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+@media screen and (max-width: 1348px) {
+	.serviceCard__text > h2 {
+		font-size: 1.7rem;
+	}
+}
+@media screen and (max-width: 1279px) {
+	.serviceCard__text > h2 {
+		font-size: 1.65rem;
+	}
+}
+@media screen and (max-width: 1244px) {
+	.serviceCard__text > h2 {
+		font-size: 1.6rem;
+	}
+}
+
+@media screen and (max-width: 1210px) {
+	.serviceCard__text > h2 {
+		font-size: 1.55rem;
+	}
+}
+
+@media screen and (max-width: 1193px) {
+	.serviceCard__text > h2 {
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 1159px) {
+	.serviceCard__text > h2 {
+		font-size: 1.45rem;
+	}
+}
+
+@media screen and (max-width: 1123px) {
+	.serviceCard__text > h2 {
+		font-size: 1.4rem;
+	}
+}
+
+@media screen and (max-width: 1089px) {
+	.serviceCard__text > h2 {
+		font-size: 1.35rem;
+	}
+}
+
+@media screen and (max-width: 1053px) {
+	.serviceCard__text > h2 {
+		font-size: 1.3rem;
+	}
+}
+@media screen and (max-width: 1020px) {
+	.serviceCard__text > h2 {
+		font-size: 1.2rem;
+	}
+}
+@media screen and (max-width: 1003px) {
+	.serviceCard__text {
+		padding: 10px;
+	}
+	.serviceCard__text > h2 {
+		font-size: 2rem;
+		margin-top: 10px;
+	}
+	.serviceCard {
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 601px) {
+	.serviceCard {
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.serviceCard__text > h2 {
+		font-size: 1.7rem;
+		margin-top: 10px;
+		padding: 5px;
+	}
+	.serviceCard__text {
+		padding: 0px;
+		text-align: center;
+	}
+}

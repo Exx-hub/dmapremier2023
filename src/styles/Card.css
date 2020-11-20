@@ -1,0 +1,118 @@
+.card {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 10px;
+	width: 20%;
+	border-radius: 10px;
+
+	box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75) !important;
+}
+
+.card__image {
+	object-fit: contain;
+	padding: 10px;
+}
+
+.card__name {
+	padding: 5px;
+	font-weight: 400;
+	color: #4c4c4c;
+	flex-wrap: nowrap;
+	font-size: 1.4rem;
+}
+.card__title {
+	padding: 5px;
+	color: gray;
+	font-size: 1rem;
+}
+
+@media screen and (max-width: 1374px) {
+	.card__name {
+		font-size: 1.3rem;
+	}
+}
+@media screen and (max-width: 1289px) {
+	.card__name {
+		font-size: 1.2rem;
+	}
+	.card__image {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1289px) {
+	.card__image {
+		width: 90%;
+	}
+	.card__name {
+		font-size: 1.2rem;
+		font-weight: 400;
+		padding: 0;
+	}
+	.card__title {
+		font-size: 0.8rem;
+	}
+}
+
+@media screen and (max-width: 1151px) {
+	.card__name {
+		font-size: 1.1rem;
+	}
+}
+
+@media screen and (max-width: 1065px) {
+	.card {
+		width: 22%;
+	}
+}
+@media screen and (max-width: 968px) {
+	.card {
+		width: 90%;
+	}
+	.card__name {
+		font-size: 1.4rem;
+	}
+	.card__title {
+		font-size: 0.9rem;
+	}
+}
+@media screen and (max-width: 620px) {
+	.card {
+		width: 90%;
+	}
+	.card__name {
+		font-size: 1.3rem;
+	}
+}
+
+@media screen and (max-width: 584px) {
+	.card__image {
+		width: 70%;
+	}
+	.card {
+		width: 70%;
+	}
+	.card__name {
+		font-size: 1.6rem;
+	}
+	.card__title {
+		font-size: 1.1rem;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.card__image {
+		width: 70%;
+	}
+	.card {
+		width: 85%;
+	}
+}
+@media screen and (max-width: 360px) {
+	.card__name {
+		font-size: 1.3rem;
+	}
+}

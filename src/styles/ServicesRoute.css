@@ -1,0 +1,57 @@
+.servicesRoute {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-top: 17vh;
+	padding: 10px;
+}
+
+.servicesRoute__text {
+	position: fixed;
+	left: 85px;
+	top: 220px;
+}
+
+.servicesRoute__text > h1 {
+	color: rgb(210, 84, 89);
+}
+
+.servicesRoute__text > h1 > span {
+	font-weight: 300;
+	color: #4c4c4c;
+}
+.servicesRoute__text > p {
+	font-size: 1.15em;
+	font-weight: 300;
+	text-align: center;
+	padding: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+	.servicesRoute__text {
+		left: 50px;
+	}
+}
+@media screen and (max-width: 1053px) {
+	.servicesRoute__text {
+		left: 30px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.servicesRoute__text {
+		position: unset;
+		margin: 30px auto;
+	}
+	.servicesRoute {
+		margin-top: 14vh;
+	}
+}
+
+@media screen and (max-width: 509px) {
+	.servicesRoute__text > h1 {
+		font-size: 2rem;
+	}
+	.servicesRoute__text > p {
+		font-size: 1.1rem;
+	}
+}

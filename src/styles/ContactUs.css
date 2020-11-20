@@ -1,0 +1,143 @@
+.contactUs {
+	background: url(../images/manila.jpg);
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-size: fill; */
+	/* background-attachment: local; */
+
+	position: relative;
+
+	display: flex;
+}
+
+.contactUs::before {
+	content: "";
+
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+
+	background-color: rgb(36, 35, 35);
+	opacity: 0.4;
+}
+
+.contactUs__left {
+	background-color: white;
+	z-index: 2;
+	position: relative;
+	flex: 0.5;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+.contactUs__leftText {
+	padding: 20px;
+}
+
+.contactUs__leftText > h1 {
+	color: rgb(210, 84, 89);
+	z-index: 2;
+}
+
+.contactUs__leftText > h1 > span {
+	color: #4c4c4c;
+	font-weight: 300 !important;
+}
+.contactUs__leftText > p {
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+.contactUs__right {
+	flex: 0.5;
+	z-index: 2;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contactUs__rightMap {
+	margin: 50px 0;
+	width: 55%;
+	min-width: 300px;
+}
+.contactUs__rightMap > iframe {
+	border-radius: 5px;
+	width: 100%;
+	height: 250px;
+	min-width: 300px;
+}
+
+.contactUs__rightLocation {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 10px;
+	width: 50%;
+	min-width: 300px;
+}
+
+.contactUs__rightLocation > h1 {
+	margin-bottom: 10px;
+	color: rgb(210, 84, 89);
+	z-index: 2;
+}
+
+.contactUs__rightLocation > h1 > span {
+	color: #4c4c4c;
+	font-weight: 300 !important;
+}
+
+.contactUs__rightLocation > p {
+	line-height: 0.4;
+}
+.contactUs__rightLocation > a > .MuiSvgIcon-root {
+	color: black;
+}
+
+@media screen and (max-width: 800px) {
+	.contactUs {
+		flex-direction: column;
+		height: auto;
+	}
+	.contactUs__left {
+		order: 2;
+	}
+	.contactUs__right {
+		height: 100vh;
+		padding: 50px;
+	}
+	.contactUs__rightLocation {
+		min-width: 400px;
+	}
+	.contactUs__rightMap {
+		order: 2;
+		min-width: 400px;
+	}
+}
+
+@media screen and (max-width: 465px) {
+	.contactUs__rightLocation {
+		min-width: 300px;
+	}
+	.contactUs__rightLocation > h1 {
+		font-size: 2rem;
+	}
+	.contactUs__rightMap {
+		order: 2;
+		min-width: 300px;
+	}
+}

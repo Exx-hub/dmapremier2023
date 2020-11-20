@@ -1,0 +1,125 @@
+.houseForm {
+	padding: 50px;
+	margin-top: 11vh;
+	width: 71%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card-header {
+	padding: 20px !important;
+	display: flex;
+}
+.sv_header__text {
+	align-self: center;
+	display: flex !important;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.panel-body > div > h4 {
+	color: red !important;
+	font-weight: 400;
+	font-size: 16px;
+	padding: 13px;
+	margin-left: 2px;
+}
+
+.sv_q_imgsel_text {
+	color: black;
+}
+
+.panel-footer {
+	text-align: right;
+	padding: 20px !important;
+}
+.sv_complete_btn {
+	background-color: black !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	padding-bottom: 3px !important;
+	padding-top: 3px !important;
+	text-transform: uppercase !important;
+	border-radius: 3px !important;
+}
+
+@media screen and (max-width: 1046px) {
+	.sv_header__text > h3 {
+		font-size: 1.5rem !important;
+	}
+}
+@media screen and (max-width: 975px) {
+	.sv_header__text > h3 {
+		font-size: 1.4rem !important;
+	}
+}
+
+@media screen and (max-width: 948px) {
+	.sv_header__text > h3 {
+		font-size: 1.35rem !important;
+	}
+}
+
+@media screen and (max-width: 931px) {
+	.sv_header__text > h3 {
+		font-size: 1.3rem !important;
+	}
+	.sv_logo__image {
+		width: 80px;
+	}
+}
+
+@media screen and (max-width: 764px) {
+	.sv_qstn > div > h5 {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 743px) {
+	.sv_header__text {
+		min-width: 270px !important;
+	}
+	.houseForm {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 548px) {
+	.sv_header__text > h3 {
+		font-size: 1.1rem !important;
+	}
+	.sv_header__text > h5 {
+		font-size: 1rem !important;
+	}
+	.sv_logo__image {
+		width: 50px;
+	}
+}
+
+@media screen and (max-width: 461px) {
+	.sv_header__text > h3 {
+		font-size: 1rem !important;
+	}
+	.sv_header__text > h5 {
+		font-size: 0.9rem !important;
+	}
+	.sv_logo__image {
+		width: 40px;
+	}
+}
+
+@media screen and (max-width: 461px) {
+	.houseForm {
+		padding: 10px;
+		margin-top: 100px;
+	}
+}
+
+@media screen and (max-width: 335px) {
+	.houseForm {
+		padding: 5px;
+	}
+	.sv_header__text {
+		padding-right: 10px !important;
+	}
+}
