@@ -1,12 +1,20 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "../styles/Slogan.css";
 import Button from "@material-ui/core/Button";
 
 import { gsap } from "gsap";
 
-import { motion } from "framer-motion";
-
 function Slogan() {
+	const [visible, setVisible] = useState(false);
+
+	useEffect(() => {
+		const timeout = setTimeout(() => {
+			setVisible(true);
+		}, 500);
+
+		return () => clearTimeout(timeout);
+	}, []);
+
 	const sloganTextRef = useRef(null);
 
 	useEffect(() => {
@@ -20,13 +28,7 @@ function Slogan() {
 	}, []);
 
 	return (
-		<motion.div
-			initial={{ opacity: 0 }}
-			animate={{ opacity: 1 }}
-			exit={{ opacity: 0 }}
-			transition={{ type: "opacity", delay: 0.2 }}
-			className="slogan"
-		>
+		<div className={`slogan ${visible && "visible"}`}>
 			<div className="slogan__overlay"></div>
 			<div className="slogan__text" ref={sloganTextRef}>
 				<h1>We Design</h1>
@@ -38,7 +40,7 @@ function Slogan() {
 					<Button>Get in touch</Button>
 				</a>
 			</div>
-		</motion.div>
+		</div>
 	);
 }
 

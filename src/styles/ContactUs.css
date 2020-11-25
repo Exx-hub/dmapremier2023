@@ -128,6 +128,11 @@
 		min-width: 400px;
 	}
 }
+@media screen and (max-width: 516px) {
+	.contactUs {
+		background-attachment: unset;
+	}
+}
 
 @media screen and (max-width: 465px) {
 	.contactUs__rightLocation {

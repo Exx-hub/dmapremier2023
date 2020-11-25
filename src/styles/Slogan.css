@@ -18,6 +18,11 @@
 
 	/* remove bouncing when scrolled  */
 	/* overscroll-behavior:  ; */
+	opacity: 0 !important;
+}
+.visible {
+	opacity: 1 !important;
+	transition: 800ms ease-in;
 }
 .slogan__overlay {
 	background-color: lightgray;
@@ -76,6 +81,12 @@
 }
 .button:hover {
 	text-decoration: none;
+}
+
+@media screen and (max-width: 516px) {
+	.slogan {
+		background: #7dc8f7;
+	}
 }
 
 @media screen and (max-width: 460px) {

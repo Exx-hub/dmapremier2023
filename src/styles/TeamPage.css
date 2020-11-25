@@ -104,6 +104,14 @@
 	}
 }
 
+@media screen and (max-width: 516px) {
+	.teamPage {
+		/* background: red; */
+		background: url(../images/site.jpg);
+		background-attachment: unset;
+	}
+}
+
 @media screen and (max-width: 430px) {
 	.teamPage__text {
 		width: 70%;
