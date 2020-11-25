@@ -5,6 +5,7 @@ import { useHistory } from "react-router-dom";
 
 // import logo from "../images/CMDLogo.png";
 import logo2 from "../images/cmdfooter.png";
+import cmdblack from "../images/cmdblack.png";
 import SidebarSlide from "./SidebarSlide";
 
 function Header() {
@@ -27,9 +28,9 @@ function Header() {
 	return (
 		<div className="header__container">
 			<div className="header">
-				<div className="header__left">
-					<img src={logo2} alt="" />
-					<h3>CMD PIONEER</h3>
+				<div className="header__left" onClick={goToHome}>
+					<img src={logo2} alt="" className="header__left--imageLogo" />
+					<img src={cmdblack} alt="" className="header__left--imageBlack" />
 				</div>
 
 				{/* burger menu here  */}

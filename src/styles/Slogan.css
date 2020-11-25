@@ -60,7 +60,6 @@
 }
 
 .slogan__text > a > button {
-	font-family: "Open Sans", sans-serif !important;
 	font-weight: 600;
 	background-color: rgb(210, 84, 89);
 	color: white;

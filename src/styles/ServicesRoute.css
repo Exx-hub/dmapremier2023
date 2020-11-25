@@ -2,7 +2,7 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	margin-top: 17vh;
+	margin-top: 13vh;
 	padding: 10px;
 }
 
@@ -27,6 +27,14 @@
 	padding: 5px;
 }
 
+.visible {
+	opacity: 1;
+	transition: 0.8s ease-in;
+}
+.invisible {
+	opacity: 0;
+}
+
 @media screen and (max-width: 1200px) {
 	.servicesRoute__text {
 		left: 50px;
@@ -43,7 +51,7 @@
 		margin: 30px auto;
 	}
 	.servicesRoute {
-		margin-top: 14vh;
+		margin-top: 8vh;
 	}
 }
 

@@ -7,8 +7,6 @@
 	background-color: rgb(240, 240, 240);
 }
 .forms__title {
-	margin-top: 10vh;
-
 	padding: 10px 10px 0 10px;
 	border-radius: 10px;
 	text-align: center;
@@ -38,6 +36,11 @@
 .forms__options {
 	display: flex;
 	justify-content: center;
+	opacity: 0;
+}
+.visible {
+	opacity: 1;
+	transition: 0.8s ease-in;
 }
 
 .forms__card {
@@ -99,7 +102,7 @@ h3 {
 		padding: 50px 0;
 	}
 	.forms__title {
-		margin-top: 13vh !important;
+		margin-top: 8vh !important;
 	}
 	.forms__options {
 		flex-direction: column;
@@ -120,6 +123,9 @@ h3 {
 }
 
 @media screen and (max-width: 426px) {
+	.forms__title {
+		margin-top: 5vh !important;
+	}
 	.forms__title > h1 {
 		font-size: 1.6rem;
 	}
