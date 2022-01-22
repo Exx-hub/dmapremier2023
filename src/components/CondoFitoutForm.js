@@ -18,13 +18,15 @@ function CondoFitoutForm() {
   const sendCondoData = (survey) => {
     console.log(survey.data);
     setResponsesCondo(survey.data);
+
+    window.scroll({ top: 0, left: 0 });
   };
 
   useEffect(() => {
     const sendCondoDataToEmail = () => {
       const templateParams = {
         name: responsesCondo.name,
-        contact_info: responsesCondo.contactInfo,
+        contact_info: responsesCondo.contactNumber,
         email: responsesCondo.email,
         project_address: responsesCondo.projectAddress,
         purpose: responsesCondo.purpose,

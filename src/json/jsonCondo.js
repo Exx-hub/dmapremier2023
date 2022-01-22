@@ -19,8 +19,8 @@ export const jsonCondo = {
         },
         {
           type: "text",
-          name: "contactInfo",
-          title: "Contact Information",
+          name: "contactNumber",
+          title: "Contact Number",
           isRequired: true,
           placeHolder: "Your answer",
         },
@@ -77,7 +77,7 @@ export const jsonCondo = {
           type: "imagepicker",
           name: "ceiling",
           title: "CEILING OF CHOICE",
-          hasComment: true,
+          //   hasComment: true,
           commentText: "Other: please specify",
           choices: [
             {
@@ -101,7 +101,7 @@ export const jsonCondo = {
           name: "flooring",
           title:
             "FLOORING OF CHOICE (For living, dining, kitchen and bedroom) ",
-          hasComment: true,
+          //   hasComment: true,
           commentText: "other: please specify",
           choices: [
             {
@@ -142,7 +142,7 @@ export const jsonCondo = {
           type: "imagepicker",
           name: "bathroomWallTiles",
           title: "Toilet area - WALL TILES",
-          hasComment: true,
+          //   hasComment: true,
           commentText: "Other: please specify",
           choices: [
             {
@@ -165,7 +165,7 @@ export const jsonCondo = {
           type: "imagepicker",
           name: "lavatory",
           title: "LAVATORY",
-          hasComment: true,
+          //   hasComment: true,
           commentText: "Other: please specify",
           choices: [
             {
@@ -187,7 +187,7 @@ export const jsonCondo = {
           type: "imagepicker",
           name: "showerArea",
           title: "SHOWER AREA",
-          hasComment: true,
+          //   hasComment: true,
           commentText: "Other: please specify",
           choices: [
             {
@@ -209,7 +209,7 @@ export const jsonCondo = {
           type: "imagepicker",
           name: "kitchenCabinets",
           title: "KITCHEN AREA-HANGING CABINETS",
-          hasComment: true,
+          //   hasComment: true,
           commentText: "Other: please specify",
           choices: [
             {
@@ -238,7 +238,7 @@ export const jsonCondo = {
           type: "imagepicker",
           name: "kitchenTop",
           title: "KITCHEN TOP FINISH",
-          hasComment: true,
+          //   hasComment: true,
           commentText: "Other: please specify",
           choices: [
             {
@@ -287,7 +287,7 @@ export const jsonCondo = {
           type: "imagepicker",
           name: "kitchenSplashBoard",
           title: "KITCHEN SPLASH BOARD",
-          hasComment: true,
+          //   hasComment: true,
           commentText: "Other: please specify",
           choices: [
             {
@@ -310,7 +310,7 @@ export const jsonCondo = {
           type: "imagepicker",
           name: "livingDiningArea",
           title: "LIVING OR DINING AREA",
-          hasComment: true,
+          //   hasComment: true,
           commentText: "Other: please specify",
           choices: [
             {
@@ -457,7 +457,7 @@ export const jsonCondo = {
           type: "file",
           name: "fileUpload",
           title:
-            "Please upload the floor plan the pictures of the current state of your condo or email at sales@cmdcorpph.com",
+            "Please upload the floor plan or pictures of the current state of your condo or email at sales@cmdcorpph.com",
           maxSize: 0,
         },
         {

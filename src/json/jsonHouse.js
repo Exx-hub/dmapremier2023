@@ -19,8 +19,8 @@ export const jsonHouse = {
         },
         {
           type: "text",
-          name: "contactInfo",
-          title: "Contact Information",
+          name: "contactNumber",
+          title: "Contact Number",
           isRequired: true,
           placeHolder: "Your answer",
         },
@@ -338,7 +338,7 @@ export const jsonHouse = {
           title:
             "Style-Images below are style references only. Choose the style that best suits you and your budget.",
           isRequired: false,
-          hasComment: true,
+          //   hasComment: true,
           choices: [
             {
               value: "Modern Contemporary",

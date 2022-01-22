@@ -18,13 +18,15 @@ function HouseDesignForm() {
   const sendHouseData = (survey) => {
     console.log(survey.data);
     setResponses(survey.data);
+
+    window.scroll({ top: 0, left: 0 });
   };
 
   useEffect(() => {
     const sendHouseDataToEmail = () => {
       const templateParams = {
         name: responses.name,
-        contact_info: responses.contactInfo,
+        contact_info: responses.contactNumber,
         email: responses.email,
         project_address: responses.projectAddress,
         lot_area: responses.lotArea,
