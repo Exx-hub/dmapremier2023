@@ -1,179 +1,179 @@
 .header__container {
-	width: 100%;
-	position: fixed;
-	top: 0;
-	z-index: 100;
-	background-color: white;
-	/* height: 16vh; */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  /* height: 16vh; */
 
-	padding: 10px;
+  padding: 10px;
 }
 .header {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	display: flex;
-	justify-content: space-between;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* burger menu  */
 .toggle__button {
-	position: absolute;
-	top: 2.4rem;
-	right: 1.3rem;
-	display: none;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 30px;
-	height: 21px;
-	cursor: pointer;
+  position: absolute;
+  top: 2.4rem;
+  right: 1.3rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
 }
 
 .toggle__button .bar {
-	height: 3px;
-	width: 100%;
-	background-color: rgb(61, 61, 61);
-	border-radius: 10px;
+  height: 3px;
+  width: 100%;
+  background-color: rgb(61, 61, 61);
+  border-radius: 10px;
 }
 
 .header__left {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 .header__left--imageLogo {
-	cursor: pointer;
+  cursor: pointer;
 }
 .header__left--imageBlack {
-	object-fit: contain;
-	width: 170px;
-	margin-left: 10px;
-	cursor: pointer;
+  object-fit: contain;
+  width: 170px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 .header__nav {
-	display: flex;
-	align-items: center;
-	flex: 0.9;
-	justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  flex: 0.9;
+  justify-content: flex-end;
 }
 .header__nav > p {
-	font-size: 14px;
-	padding: 10px;
-	margin-right: 10px;
-	font-family: "Poppins", sans-serif;
-	font-weight: 500;
-	color: #4c4c4c;
-	cursor: pointer;
-	transition: transform 300ms ease;
-	margin-top: 15px;
+  font-size: 14px;
+  padding: 10px;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #4c4c4c;
+  cursor: pointer;
+  transition: transform 300ms ease;
+  margin-top: 15px;
 }
 .header__nav > p:hover {
-	color: rgb(210, 84, 89);
-	transform: scale(1.1);
+  color: rgb(210, 84, 89);
+  transform: scale(1.1);
 }
 
 .header__nav > p > a {
-	color: #4c4c4c !important;
+  color: #4c4c4c !important;
 }
 .header__nav > p > a:hover {
-	text-decoration: none !important;
-	color: rgb(210, 84, 89) !important;
-	transform: scale(1.1);
+  text-decoration: none !important;
+  color: rgb(210, 84, 89) !important;
+  transform: scale(1.1);
 }
 
 .header__nav > a > button {
-	font-family: "Poppins", sans-serif !important;
-	font-weight: 500;
-	padding: 8px 15px;
-	border: none;
-	outline: none !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500;
+  padding: 8px 15px;
+  border: none;
+  outline: none !important;
 
-	color: rgb(210, 84, 89);
-	background-color: white;
-	border: 2px solid rgb(210, 84, 89);
-	margin-left: 5px;
+  color: rgb(210, 84, 89);
+  background-color: white;
+  border: 2px solid rgb(210, 84, 89);
+  margin-left: 5px;
 }
 
 .header__nav > a > button:hover {
-	background-color: rgb(210, 84, 89);
-	color: white;
+  background-color: rgb(210, 84, 89);
+  color: white;
 }
 
 .headerButtonLink:hover {
-	text-decoration: none;
-	color: rgb(210, 84, 89);
+  text-decoration: none;
+  color: rgb(210, 84, 89);
 }
 
 @media screen and (max-width: 1159px) {
-	.header {
-		width: 95%;
-	}
+  .header {
+    width: 95%;
+  }
 }
 
 @media (max-width: 1072px) {
-	.header__nav > p {
-		margin-right: 5px;
-		font-size: 0.8rem;
-	}
+  .header__nav > p {
+    margin-right: 5px;
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 1023px) {
-	.toggle__button {
-		display: flex;
-		position: static;
-	}
-	.activeToggle {
-		display: none;
-	}
+  .toggle__button {
+    display: flex;
+    position: static;
+  }
+  .activeToggle {
+    display: none;
+  }
 
-	.header {
-		align-items: center;
-	}
+  .header {
+    align-items: center;
+  }
 
-	.header__nav {
-		display: none;
-	}
+  .header__nav {
+    display: none;
+  }
 
-	.header__container {
-		padding-left: 0;
-		padding-right: 0;
-	}
+  .header__container {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media screen and (max-width: 850px) {
-	.header__left--imageLogo {
-		width: 60px;
-	}
+  .header__left--imageLogo {
+    width: 60px;
+  }
 }
 @media screen and (max-width: 615px) {
-	.toggle__button {
-		width: 25px;
-		height: 18px;
-	}
+  .toggle__button {
+    width: 25px;
+    height: 18px;
+  }
 }
 
 @media screen and (max-width: 535px) {
-	.header__left--imageLogo {
-		width: 50px;
-	}
-	.header__left--imageBlack {
-		width: 150px;
-	}
+  .header__left--imageLogo {
+    width: 50px;
+  }
+  .header__left--imageBlack {
+    width: 150px;
+  }
 }
 
 @media screen and (max-width: 460px) {
-	.header__left--imageLogo {
-		width: 45px;
-	}
-	.header__left--imageBlack {
-		width: 130px;
-		margin-left: 5px;
-	}
+  .header__left--imageLogo {
+    width: 45px;
+  }
+  .header__left--imageBlack {
+    width: 130px;
+    margin-left: 5px;
+  }
 
-	.toggle__button {
-		width: 23px;
-		height: 17px;
-		margin-right: 5px;
-		margin-bottom: 3px;
-	}
+  .toggle__button {
+    width: 23px;
+    height: 17px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+  }
 }

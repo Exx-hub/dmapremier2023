@@ -19,48 +19,48 @@ import HouseDesignForm from "./components/HouseDesignForm";
 import ServicesRoute from "./components/ServicesRoute";
 
 function App() {
-	return (
-		<div className="app">
-			<Router>
-				<ScrollToTop />
-				<Header />
+  return (
+    <div className="app">
+      <Router>
+        <ScrollToTop />
+        <Header />
 
-				<AnimatePresence>
-					<Switch>
-						<Route exact path="/">
-							<Slogan />
-							<About />
-							<TeamPage />
-							<Services />
-							<ContactUs />
-						</Route>
+        <AnimatePresence>
+          <Switch>
+            <Route exact path="/">
+              <Slogan />
+              <About />
+              <TeamPage />
+              <Services />
+              <ContactUs />
+            </Route>
 
-						<Route path="/services">
+            {/* <Route path="/services">
 							<ServicesRoute />
-						</Route>
+						</Route> */}
 
-						<Route path="/projects">
-							<Projects />
-						</Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
 
-						<Route exact path="/forms">
-							<Forms />
-						</Route>
+            <Route exact path="/forms">
+              <Forms />
+            </Route>
 
-						<Route path="/forms/house">
-							<HouseDesignForm />
-						</Route>
+            <Route path="/forms/house">
+              <HouseDesignForm />
+            </Route>
 
-						<Route path="/forms/fitouts">
-							<CondoFitoutForm />
-						</Route>
-					</Switch>
-				</AnimatePresence>
+            <Route path="/forms/fitouts">
+              <CondoFitoutForm />
+            </Route>
+          </Switch>
+        </AnimatePresence>
 
-				<Footer />
-			</Router>
-		</div>
-	);
+        <Footer />
+      </Router>
+    </div>
+  );
 }
 
 export default App;
