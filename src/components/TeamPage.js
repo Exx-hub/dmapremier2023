@@ -2,9 +2,9 @@ import React from "react";
 import "../styles/TeamPage.css";
 import Card from "./Card";
 
-import ceo from "../images/tepyonim.jpg";
-import coo from "../images/coo.jpg";
-import poh from "../images/poh.png";
+import ceo from "../assets/images/tepyonim.jpg";
+import coo from "../assets/images/coo.jpg";
+import poh from "../assets/images/poh.png";
 
 function TeamPage() {
   return (

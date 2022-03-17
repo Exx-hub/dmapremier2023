@@ -2,10 +2,10 @@ import React from "react";
 import "../styles/Services.css";
 import ServiceCard from "./ServiceCard";
 
-import electrical from "../images/electricalwork.jpeg";
-import construction from "../images/renovation.jpeg";
-import dwork from "../images/dwork.jpeg";
-import design from "../images/designwork.jpeg";
+import electrical from "../assets/images/electricalwork.jpeg";
+import construction from "../assets/images/renovation.jpeg";
+import dwork from "../assets/images/dwork.jpeg";
+import design from "../assets/images/designwork.jpeg";
 
 function Services() {
   return (

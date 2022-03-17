@@ -3,9 +3,9 @@ import "../styles/Header.css";
 import Button from "@material-ui/core/Button";
 import { useHistory } from "react-router-dom";
 
-// import logo from "../images/CMDLogo.png";
-import logo2 from "../images/cmdfooter.png";
-import cmdblack from "../images/cmdblack.png";
+// import logo from "../assets/images/CMDLogo.png";
+import logo2 from "../assets/images/cmdfooter.png";
+import cmdblack from "../assets/images/cmdblack.png";
 import SidebarSlide from "./SidebarSlide";
 
 function Header() {

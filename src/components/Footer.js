@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/Footer.css";
 
-import cmdlogo from "../images/cmdfooter.png";
-import cityhall from "../images/taytaycityhall.png";
-import bir from "../images/birlogo.png";
-import sec from "../images/seclogo.png";
+import cmdlogo from "../assets/images/cmdfooter.png";
+import cityhall from "../assets/images/taytaycityhall.png";
+import bir from "../assets/images/birlogo.png";
+import sec from "../assets/images/seclogo.png";
 
 import { useLocation } from "react-router-dom";
 
