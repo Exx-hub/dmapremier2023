@@ -72,16 +72,17 @@ function Projects() {
           animationType="fadeout"
           animationDuration={800}
           autoPlay={true}
-          autoPlayInterval={5000}
+          autoPlayInterval={4000}
           autoPlayStrategy="all"
           infinite={true}
           disableButtonsControls={true}
+          autoPlayControls
         >
           <img src={ortigas} alt="" className="d-block w-100" />
-          <img src={taytay} alt="" className="d-block w-100" />
-          <img src={marikina} alt="" className="d-block w-100" />
           <img src={sushi} alt="" className="d-block w-100" />
           <img src={sushi2} alt="" className="d-block w-100" />
+          <img src={taytay} alt="" className="d-block w-100" />
+          <img src={marikina} alt="" className="d-block w-100" />
           <img src={cellshop} alt="" className="d-block w-100" />
           <img src={laguna} alt="" className="d-block w-100" />
           <img src={erod1} alt="" className="d-block w-100" />
