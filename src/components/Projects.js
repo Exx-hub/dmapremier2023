@@ -76,7 +76,6 @@ function Projects() {
           autoPlayStrategy="all"
           infinite={true}
           disableButtonsControls={true}
-          autoPlayControls
         >
           <img src={ortigas} alt="" className="d-block w-100" />
           <img src={sushi} alt="" className="d-block w-100" />
