@@ -420,7 +420,7 @@ export const jsonHouse = {
           type: "file",
           name: "fileUpload",
           title:
-            "Please upload the lot survey or title or email it to us at sales@cmdcorpph.com",
+            "Please upload the lot survey or title or email it to us at info@cmdcorpph.com",
           maxSize: 0,
         },
       ],

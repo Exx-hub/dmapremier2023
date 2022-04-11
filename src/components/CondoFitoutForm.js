@@ -31,9 +31,11 @@ function CondoFitoutForm() {
         project_address: responsesCondo.projectAddress,
         purpose: responsesCondo.purpose,
         target_date: responsesCondo.targetDate,
+        budget: responsesCondo.budget,
         floor_area: responsesCondo.floorArea,
+        design: responsesCondo.design,
         ceiling: responsesCondo.ceiling,
-        flooring: responsesCondo.floooring,
+        flooring: responsesCondo.flooring,
         bathroom_wall_tiles: responsesCondo.bathroomWallTiles,
         lavatory: responsesCondo.lavatory,
         shower_area: responsesCondo.showerArea,
@@ -49,9 +51,9 @@ function CondoFitoutForm() {
         bedroom_door: responsesCondo.bedroomDoor,
         wardrobe_design: responsesCondo.wardrobeDesign,
         partition: responsesCondo.partition,
+        demolish: responsesCondo.demolish,
         requests: responsesCondo.requests,
         file_upload: responsesCondo.fileUpload,
-        file_upload_two: responsesCondo.fileUploadTwo,
       };
 
       emailjs
