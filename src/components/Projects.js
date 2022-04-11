@@ -38,6 +38,7 @@ import marikinaHouse from "../assets/projectAssets/40MarkinaHouse.png";
 import cavite from "../assets/projectAssets/41Cavite.png";
 import antipolo from "../assets/projectAssets/42Antips.png";
 import batangas from "../assets/projectAssets/43BAtangas.png";
+import david from "../assets/projectAssets/leo1.jpeg";
 
 function Projects() {
   const [visible, setVisible] = useState(false);
@@ -109,6 +110,7 @@ function Projects() {
           <img src={cavite} alt="" className="d-block w-100" />
           <img src={antipolo} alt="" className="d-block w-100" />
           <img src={batangas} alt="" className="d-block w-100" />
+          {/* <img src={david} alt="" className="d-block w-100" /> */}
         </AliceCarousel>
       </div>
     </motion.div>

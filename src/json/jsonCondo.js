@@ -68,10 +68,37 @@ export const jsonCondo = {
         },
         {
           type: "text",
+          name: "budget",
+          title: "Realistic budget limit based on the scope of work?",
+          isRequired: true,
+          placeHolder: "Your answer",
+        },
+        {
+          type: "text",
           name: "floorArea",
           title: "How many sqm?",
           isRequired: true,
           placeHolder: "sqm",
+        },
+        {
+          type: "radiogroup",
+          name: "design",
+          title: "Do you already have a design?",
+          isRequired: true,
+          choices: [
+            {
+              value: "Yes with sign and sealed",
+              text: "Yes with sign and sealed",
+            },
+            {
+              value: "Yes without sign and sealed",
+              text: "Yes without sign and sealed",
+            },
+            {
+              value: "None",
+              text: "None",
+            },
+          ],
         },
         {
           type: "imagepicker",
@@ -449,24 +476,24 @@ export const jsonCondo = {
         },
         {
           type: "text",
+          name: "demolish",
+          title: "Is there anything you want to remove/demolish?",
+          placeHolder: "Your answer",
+        },
+        {
+          type: "text",
           name: "requests",
           title: "Additional comments/requests?",
           placeHolder: "Your answer",
         },
         {
-          type: "file",
+          type: "text",
           name: "fileUpload",
           title:
-            "Please upload the floor plan or pictures of the current state of your condo or email at sales@cmdcorpph.com",
-          maxSize: 0,
-        },
-        {
-          type: "file",
-          name: "fileUploadTwo",
-          title:
-            "Please upload the floor plan or email it to us at sales@cmdcorpph.com",
-          maxSize: 0,
-        },
+            "Please send pictures of the current state your condo, floor plan and design pegs, if any, at info@cmdcorpph.com",
+          hasInput: false,
+          readOnly: true,
+          },
       ],
       title: "* Required",
     },
