@@ -11,7 +11,7 @@ export const jsonCondo = {
       name: "page1",
       elements: [
         {
-          type: "text",
+          type: "expression",
           name: "name",
           title: "Name",
           isRequired: true,
@@ -487,13 +487,11 @@ export const jsonCondo = {
           placeHolder: "Your answer",
         },
         {
-          type: "text",
+          type: "expression",
           name: "fileUpload",
           title:
             "Please send pictures of the current state your condo, floor plan and design pegs, if any, at info@cmdcorpph.com",
-          hasInput: false,
-          readOnly: true,
-          },
+        },
       ],
       title: "* Required",
     },

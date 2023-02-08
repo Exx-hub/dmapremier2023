@@ -39,7 +39,8 @@ function SidebarSlide({ show, setShow }) {
     setShow(false);
   };
   const goToServices = () => {
-    history.push("/services");
+    // history.push("/services");
+
     setShow(false);
   };
 
@@ -49,7 +50,10 @@ function SidebarSlide({ show, setShow }) {
         <div className="sidebarSlide__nav">
           <img src={cmdlogo} alt="" />
           <p onClick={goToHome}>HOME</p>
-          <p onClick={goToServices}>SERVICES</p>
+          {/* <p onClick={goToServices}>SERVICES</p> */}
+          <p>
+            <a href="/#services">SERVICES</a>
+          </p>
           <p onClick={goToProjects}>PROJECTS</p>
           <p onClick={goToForms}>FORMS</p>
           <p>
