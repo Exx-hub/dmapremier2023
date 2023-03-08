@@ -38,7 +38,7 @@ import marikinaHouse from "../assets/projectAssets/40MarkinaHouse.png";
 import cavite from "../assets/projectAssets/41Cavite.png";
 import antipolo from "../assets/projectAssets/42Antips.png";
 import batangas from "../assets/projectAssets/43BAtangas.png";
-import david from "../assets/projectAssets/leo1.jpeg";
+// import david from "../assets/projectAssets/leo1.jpeg";
 
 function Projects() {
   const [visible, setVisible] = useState(false);

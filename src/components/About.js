@@ -12,10 +12,6 @@ function About() {
       speed: 10,
       center: true,
     });
-    // new Rellax(".about__text", {
-    // 	speed: 3,
-    // 	center: true,
-    // });
   }, []);
   return (
     <div className="about">
@@ -35,10 +31,9 @@ function About() {
           </h1>
         </div>
         <p>
-          CMD Pioneer Corp. is a subcontracting company dealing with
-          construction of houses, buildings, offices and other facilities. We
-          are a team of highly innovative individuals aiming to provide the best
-          service to all our clients.
+          DMA Premier Construction Corp. is a subcontracting company dealing with construction of
+          houses, buildings, offices and other facilities. We are a team of highly innovative
+          individuals aiming to provide the best service to all our clients.
         </p>
       </div>
     </div>

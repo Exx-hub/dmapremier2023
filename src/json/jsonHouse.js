@@ -1,11 +1,11 @@
 export const jsonHouse = {
   title: "House Design Requirements",
-  description: "CMD Design Form 001",
-  logo: "https://surveyjs.io/api/MySurveys/files?name=69cd121b-bb63-41d4-b0f0-7ce9eb0423ee",
+  description: "DMA Design Form 001",
+  logo: "https://api.surveyjs.io/private/Surveys/files?name=71a272ae-9e72-4957-8ec6-50a4e11fd67a",
   logoWidth: 200,
   logoHeight: 100,
   completedHtml:
-    "Thank you for choosing CMD Pioneer. We will get back to you shortly. Let's start building your dream.",
+    "Thank you for choosing DMA Premier. We will get back to you shortly. Let's start building your dream.",
   pages: [
     {
       name: "page1",
@@ -419,8 +419,7 @@ export const jsonHouse = {
         {
           type: "file",
           name: "fileUpload",
-          title:
-            "Please upload the lot survey or title or email it to us at info@cmdcorpph.com",
+          title: "Please upload the lot survey or title or email it to us at info@cmdcorpph.com",
           maxSize: 0,
         },
       ],

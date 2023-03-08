@@ -32,7 +32,6 @@ function ContactUs() {
             title="map"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=14%C2%B034'04.5%22N%20121%C2%B007'27.9%22E&t=&z=15&ie=UTF8&iwloc=&output=embed"
-            frameBorder="0"
           ></iframe>
         </div>
         <div className="contactUs__rightLocation">
@@ -41,11 +40,11 @@ function ContactUs() {
           </h1>
           <p>Unit-J 9005 Highway 2000 Phase 2</p>
           <p> Sta. Ana Taytay Rizal</p>
-          <p>info@cmdcorpph.com</p>
+          <p>info@dmaconstuctioncorp.com</p>
           <p> (02) 7-9718374 </p>
           <p>(0917) 1437659</p>
           <a
-            href="https://www.facebook.com/CMDPioneerConstCorp"
+            href="https://www.facebook.com/DMAPremierConstructionCorp"
             target="_blank"
             rel="noopener noreferrer"
           >

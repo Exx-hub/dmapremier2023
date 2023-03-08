@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Footer.css";
 
-import cmdlogo from "../assets/images/cmdfooter.png";
+import dmalogo from "../assets/dma/dmalogo.png";
 import cityhall from "../assets/images/taytaycityhall.png";
 import bir from "../assets/images/birlogo.png";
 import sec from "../assets/images/seclogo.png";
@@ -15,16 +15,14 @@ function Footer() {
   return (
     <div
       className={
-        pathname === "/forms/house" || pathname === "/forms/fitouts"
-          ? "footer hidden"
-          : "footer"
+        pathname === "/forms/house" || pathname === "/forms/fitouts" ? "footer hidden" : "footer"
       }
     >
       <div className="footer__left">
-        <img src={cmdlogo} alt="" />
+        <img src={dmalogo} alt="" />
       </div>
       <div className="footer__middle">
-        <p>Copyright © 2020 CMD Pioneer Construction Corporation</p>
+        <p>Copyright © 2023 DMA Premier Construction Corporation</p>
         <p>All Rights Reserved</p>
       </div>
       <div className="footer__right">

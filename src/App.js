@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
 import About from "./components/About";
@@ -16,7 +16,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Forms from "./components/Forms";
 import CondoFitoutForm from "./components/CondoFitoutForm";
 import HouseDesignForm from "./components/HouseDesignForm";
-import ServicesRoute from "./components/ServicesRoute";
+// import ServicesRoute from "./components/ServicesRoute";
 
 function App() {
   return (
@@ -35,10 +35,6 @@ function App() {
               <ContactUs />
             </Route>
 
-            {/* <Route path="/services">
-							<ServicesRoute />
-						</Route> */}
-
             <Route path="/projects">
               <Projects />
             </Route>
@@ -54,6 +50,8 @@ function App() {
             <Route path="/forms/fitouts">
               <CondoFitoutForm />
             </Route>
+
+            <Redirect from="*" to="/" />
           </Switch>
         </AnimatePresence>
 

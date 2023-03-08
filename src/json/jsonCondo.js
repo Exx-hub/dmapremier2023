@@ -1,11 +1,11 @@
 export const jsonCondo = {
   title: "Condo Design Requirements",
-  description: "CMD Design Form 002",
-  logo: "https://surveyjs.io/api/MySurveys/files?name=9a3fe66f-2997-4c6c-be4e-03073242b50e",
+  description: "DMA Design Form 002",
+  logo: "https://api.surveyjs.io/private/Surveys/files?name=71a272ae-9e72-4957-8ec6-50a4e11fd67a",
   logoWidth: 199,
   logoHeight: 100,
   completedHtml:
-    "Thank you for choosing CMD Pioneer. We will get back to you shortly. Let's start building your dream.",
+    "Thank you for choosing DMA Premier. We will get back to you shortly. Let's start building your dream.",
   pages: [
     {
       name: "page1",
@@ -126,8 +126,7 @@ export const jsonCondo = {
         {
           type: "imagepicker",
           name: "flooring",
-          title:
-            "FLOORING OF CHOICE (For living, dining, kitchen and bedroom) ",
+          title: "FLOORING OF CHOICE (For living, dining, kitchen and bedroom) ",
           //   hasComment: true,
           commentText: "other: please specify",
           choices: [

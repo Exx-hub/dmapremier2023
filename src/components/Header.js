@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import "../styles/Header.css";
 import Button from "@material-ui/core/Button";
 import { useHistory } from "react-router-dom";
-
-// import logo from "../assets/images/CMDLogo.png";
-import logo2 from "../assets/images/cmdfooter.png";
-import cmdblack from "../assets/images/cmdblack.png";
 import SidebarSlide from "./SidebarSlide";
+
+import dmaLogo from "../assets/dma/dmahorizontal.png";
 
 function Header() {
   const [show, setShow] = useState(false);
@@ -21,16 +19,12 @@ function Header() {
   const goToForms = () => {
     history.push("/forms");
   };
-  const goToServices = () => {
-    history.push("/services");
-  };
 
   return (
     <div className="header__container">
       <div className="header">
         <div className="header__left" onClick={goToHome}>
-          <img src={logo2} alt="" className="header__left--imageLogo" />
-          <img src={cmdblack} alt="" className="header__left--imageBlack" />
+          <img src={dmaLogo} alt="" className="header__left--image" />
         </div>
 
         {/* burger menu here  */}
@@ -45,7 +39,6 @@ function Header() {
 
         <div className="header__nav">
           <p onClick={goToHome}>HOME</p>
-          {/* <p onClick={goToServices}>SERVICES</p> */}
           <p>
             <a href="/#services">SERVICES</a>
           </p>
@@ -53,7 +46,7 @@ function Header() {
           <p onClick={goToForms}>FORMS</p>
           <p>
             <a
-              href="https://www.facebook.com/CMDPioneerConstCorp"
+              href="https://www.facebook.com/DMAPremierConstructionCorp"
               target="_blank"
               rel="noopener noreferrer"
             >
