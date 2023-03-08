@@ -4,6 +4,7 @@ import { useHistory } from "react-router-dom";
 import CloseIcon from "@material-ui/icons/Close";
 
 import cmdlogo from "../assets/images/cmdfooter.png";
+import dmalogo from "../assets/dma/dmalogo.png";
 import cityhall from "../assets/images/taytaycityhall.png";
 import bir from "../assets/images/birlogo.png";
 import sec from "../assets/images/seclogo.png";
@@ -38,21 +39,17 @@ function SidebarSlide({ show, setShow }) {
     history.push("/forms");
     setShow(false);
   };
-  const goToServices = () => {
-    // history.push("/services");
-
-    setShow(false);
-  };
 
   return (
     <div className={show ? "sidebarSlide active" : "sidebarSlide"}>
       <div className="sidebarSlide__left">
         <div className="sidebarSlide__nav">
-          <img src={cmdlogo} alt="" />
+          <img src={dmalogo} alt="" />
           <p onClick={goToHome}>HOME</p>
-          {/* <p onClick={goToServices}>SERVICES</p> */}
           <p>
-            <a href="/#services">SERVICES</a>
+            <a href="/#services" onClick={() => setShow(false)}>
+              SERVICES
+            </a>
           </p>
           <p onClick={goToProjects}>PROJECTS</p>
           <p onClick={goToForms}>FORMS</p>
@@ -73,11 +70,7 @@ function SidebarSlide({ show, setShow }) {
           </p>
         </div>
 
-        <div
-          className={`sidebarSlide__bottom ${
-            handleMove ? "bottom__moveUp" : ""
-          }`}
-        >
+        <div className={`sidebarSlide__bottom ${handleMove ? "bottom__moveUp" : ""}`}>
           <div className="sidebarSlide__bottom--logos">
             <img src={bir} alt="" />
             <img src={cityhall} alt="" />
@@ -85,14 +78,10 @@ function SidebarSlide({ show, setShow }) {
             <img src={sec} alt="" />
           </div>
 
-          <p>Copyright © 2020 CMD Pioneer Construction Corporation</p>
+          <p>Copyright © 2023 DMA Premier Construction Corporation</p>
         </div>
       </div>
-      <div
-        className={
-          show ? "sidebarSlide__side activeSide" : "sidebarSlide__side"
-        }
-      >
+      <div className={show ? "sidebarSlide__side activeSide" : "sidebarSlide__side"}>
         <CloseIcon onClick={() => setShow(false)} />
       </div>
     </div>
