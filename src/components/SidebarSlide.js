@@ -3,7 +3,6 @@ import "../styles/SidebarSlide.css";
 import { useHistory } from "react-router-dom";
 import CloseIcon from "@material-ui/icons/Close";
 
-import cmdlogo from "../assets/images/cmdfooter.png";
 import dmalogo from "../assets/dma/dmalogo.png";
 import cityhall from "../assets/images/taytaycityhall.png";
 import bir from "../assets/images/birlogo.png";

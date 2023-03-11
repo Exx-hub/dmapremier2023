@@ -40,7 +40,7 @@ function ContactUs() {
           </h1>
           <p>Unit-J 9005 Highway 2000 Phase 2</p>
           <p> Sta. Ana Taytay Rizal</p>
-          <p>info@dmaconstuctioncorp.com</p>
+          <p>info@dmaconstructioncorp.com</p>
           <p> (02) 7-9718374 </p>
           <p>(0917) 1437659</p>
           <a
